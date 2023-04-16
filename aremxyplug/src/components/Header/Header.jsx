@@ -4,7 +4,7 @@ import { Container } from './HeaderStyle';
 const Header = () => {
   return (
    <Container>
-     <div>Header</div>
+    <div>Header</div>
    </Container>
   )
 }
