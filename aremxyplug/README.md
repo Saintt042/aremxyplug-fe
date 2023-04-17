@@ -8,8 +8,9 @@ In the project directory, you can run:
 
 ### Install Project Dependencies
 
-npm install react-router-dom
-npm install styled-components
+npm install react-router-dom.
+npm install styled-components.
+React Framer-motion in use
 
 ### `npm start`
 
