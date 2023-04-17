@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from './HomeStyle'
-import slant from "../../assets/slant.svg"
+// import slant from "../../assets/slant.svg"
 
 const Home = () => {
   return (
@@ -23,9 +23,9 @@ const Home = () => {
     </div>
    </section>
 
-   <section className="photos">
-    {/* <img src={slant} alt="slant" /> */}
-   </section>
+   {/* <section className="photos">
+    <img src={slant} alt="slant" />
+   </section> */}
       </div>
     </Container>
   )
