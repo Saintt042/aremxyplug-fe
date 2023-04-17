@@ -20,7 +20,7 @@ line-height: 90px;
 }
 
 .nav__item a {
-    color: var(--primary-color);
+    color: var(--navbar-color);
     font-size: 19.53px;
     font-weight: 700;
     cursor: pointer;
