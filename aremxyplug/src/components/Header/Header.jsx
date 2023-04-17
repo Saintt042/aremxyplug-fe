@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container } from './HeaderStyle';
+import Navbar from '../Navbar/Navbar';
 
 const Header = () => {
   return (
    <Container>
-    <div>Header</div>
+    <div> <Navbar /> </div>
    </Container>
   )
 }
