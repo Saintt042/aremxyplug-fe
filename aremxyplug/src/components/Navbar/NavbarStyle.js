@@ -4,7 +4,7 @@ export const Container = styled.nav`
   // background: red;
   max-width: 1250px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 30px;
   // width: 100%;
   height: 8rem;
   line-height: 90px;
