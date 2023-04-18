@@ -4,10 +4,12 @@ export const Container = styled.div`
   background: var(--primary-color);
   margin: 0 auto;
   padding: 5% 50px;
+  max-width: 1453px;
   color: #ffffff;
 
-  // .footer__wrapper {
-  // }
+  .img__container {
+    border-bottom: 1px solid #fff;
+  }
 
   .aremxyplug,
   .product,

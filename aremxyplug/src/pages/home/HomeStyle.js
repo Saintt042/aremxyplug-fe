@@ -2,23 +2,30 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin: 0 auto;
-  padding: 5% 50px;
+  margin-top: 156.16px;
+  margin-bottom: 220px;
+//   padding: 5% 50px;
 
   .container__wrapper .texts {
-    margin-left: 60px;
-    width: 40%;
+    margin-left: 120px;
+    // width: 40%;
   }
   .header {
     font-weight: 700;
-    font-size: 35px;
-    line-height: 44.28px;
+    font-size: 45px;
+    line-height: 62.78px;
+    width: 663px;
   }
   p {
     font-weight: 500;
-    font-size: 12px;
-    line-height: 14.4px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25.92px;
+    margin-bottom: 55px;
+    margin-top: 41px;
+    width: 515px;
+  }
+  .btn__sec {
+    margin-bottom: 220px;
   }
   .btns {
     // background: red;

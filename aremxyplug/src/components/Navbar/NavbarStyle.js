@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.nav`
-  // background: red;
-  max-width: 1250px;
-  margin: 0 auto;
-  padding: 0 30px;
-  // width: 100%;
+  max-width: 1453px;
+  // margin: 0 auto;
+  padding: 0 90px;
   height: 8rem;
   line-height: 90px;
 
+  .nav__wrapper {
+    margin-top: 66.93px;
+  }
   .nav__wrapper .navigation {
     display: flex;
     align-items: center;
