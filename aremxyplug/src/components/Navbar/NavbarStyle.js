@@ -1,32 +1,35 @@
 import styled from "styled-components";
 
 export const Container = styled.nav`
-// background: red;
-width: 100%;
-height: 70px;
-line-height: 90px;
+  // background: red;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 30px;
+  // width: 100%;
+  height: 8rem;
+  line-height: 90px;
 
-.nav__wrapper .navigation {
+  .nav__wrapper .navigation {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
+  }
 
-.menu {
+  .menu {
     display: flex;
     align-items: center;
     column-gap: 2.7rem;
     margin-bottom: 0;
-}
+  }
 
-.nav__item a {
+  .nav__item a {
     color: var(--navbar-color);
     font-size: 19.53px;
     font-weight: 700;
     cursor: pointer;
-}
+  }
 
-#contact__btn {
+  #contact__btn {
     font-size: 12.66px;
     font-weight: 700;
     cursor: pointer;
@@ -35,25 +38,11 @@ line-height: 90px;
     border: none;
     background: var(--primary-color);
     color: #fff;
+  }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .active__menu {
-        display: block;
+      display: block;
     }
-}
-
-
-
+  }
 `;
