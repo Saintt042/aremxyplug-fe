@@ -9,7 +9,9 @@ const Footer = () => {
   return (
     <Container>
       <div className="footer__wrapper">
+        <div className="img__container">
         <img src={footerLogo} alt="logo" />
+        </div>
 
         <div className="text__wrapper">
           <div className="aremxyplug">
@@ -145,7 +147,7 @@ const Footer = () => {
               </span>
           </div>
         </div>
-        <h5 id="copyright">AremxyPlug {year}. All rights Reserved. </h5>
+        <h5 id="copyright"><i class="ri-copyright-line"></i>AremxyPlug {year}. All rights Reserved. </h5>
       </div>
     </Container>
   );
